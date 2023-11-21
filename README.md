@@ -1,5 +1,5 @@
-# template_repository
-A templare repository for a C++ project
+# tdd_kent_beck
+C++ implementation of Kent Beck's "Test-Driven Development by Example" book.
 
 ## Dependencies
 

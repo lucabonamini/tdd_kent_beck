@@ -26,7 +26,6 @@ enable_doxygen()
 
 include(cmake/StaticAnalyzers.cmake)
 
-
 function(build_executable name)
   add_executable(${name} src/${name}.cpp)
   target_include_directories(${name}

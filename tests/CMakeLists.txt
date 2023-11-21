@@ -24,5 +24,4 @@ target_link_libraries(test_example
 )
 target_compile_features(test_example PUBLIC cxx_std_17)
 
-target_compile_definitions(test_example PRIVATE TESTS_DIR="${CMAKE_CURRENT_SOURCE_DIR}")
 add_test(NAME test_example COMMAND test_example)
